@@ -64,10 +64,7 @@ function lunar.load(path)
 	end
 end
 
-local chatEvents = game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents")
-local messageDoneFiltering = chatEvents:WaitForChild("OnMessageDoneFiltering")
 
-lunar.onplayerchatted = messageDoneFiltering.OnClientEvent
 
 local signals = {}
 
