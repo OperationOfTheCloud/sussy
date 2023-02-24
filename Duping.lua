@@ -1,7 +1,6 @@
 local lunar = {}
 
 function lunar.chat(msg)
-	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer(msg, "All")
 end
 
 function lunar.getexecutor(includelunar)
